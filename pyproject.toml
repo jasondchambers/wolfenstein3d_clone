@@ -1,0 +1,17 @@
+[project]
+name = "wolfenstein3d-clone"
+version = "0.1.0"
+description = "A clone of Wolfenstein 3D"
+authors = [
+    {name = "Jason Chambers",email = "jason.d.chambers@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygame (>=2.6.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
